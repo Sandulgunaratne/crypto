@@ -57,7 +57,7 @@ class SimpleCryptoApp:
         # Plaintext input area
         self.text_input = tk.Text(self.root, height=5, width=40, bg=BG_BLACK, fg=FG_TEXT, insertbackground=FG_TEXT)
         self.text_input.pack(pady=10)
-
+#hello
         # Encrypted message display
         self._label("Encrypted Message:").pack(pady=5)
         self.encrypted_output = tk.Text(self.root, height=5, width=40, bg=BG_BLACK, fg=FG_TEXT, insertbackground=FG_TEXT)
